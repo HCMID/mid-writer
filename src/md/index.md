@@ -1,7 +1,7 @@
 ## Writing web pages with executable code
 
 
-## One-time set up
+### One-time set up
 
 - [Set up a github repository](setup)
 
@@ -15,6 +15,24 @@ The regular cycle involves three steps:
 
 
 #### Adding content
+
+Write normal markdown files in the `src/md` directory.  To include executable code, use a fenced-code block (set off with triple back ticks), labelled as a `tut` block.
+
+
+
+
+    Including a block like this:
+    ```tut
+    val example = "This is a block of Scala code"
+    ```
+
+
+will generate this:
+
+
+```tut
+val example = "This is a block of Scala code"
+```
 
 #### The `tut` plugin
 
