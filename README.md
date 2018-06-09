@@ -1,4 +1,4 @@
-# mid-writer
+# `mid-writer`
 
 A template repository for publishing web pages that include executable code in Scala.  The `build.sbt` for this project includes all the code libraries that are commonly used HC MID projects.
 
