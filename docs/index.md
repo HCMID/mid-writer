@@ -1,10 +1,22 @@
 ## Writing web pages with executable code
 
 
-- Github source:  <https://github.com/hcmid/mid-writer>
+## One-time set up
+
 - [Set up a github repository](setup)
 
 ### Writing
 
-1.  Write normal markdown files in the directory `src/md`.
-.  
+The regular cycle involves three steps:
+
+1.  Add content to directory `src/md`.
+2.  In an sbt console, run `tutQuick`
+3.  Commit your changes.
+
+
+#### Adding content
+
+#### The `tut` plugin
+
+
+#### Committing your changes
